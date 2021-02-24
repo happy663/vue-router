@@ -17,7 +17,7 @@ export default new Router({
       props: true,
       children: [
         { path: "post", component: UsersPosts },
-        { path: "profile", component: UsersProfile, name: "user-id-profile" },
+          { path: "profile", component: UsersProfile, name: "user-id-profile" },
       ],
     },
     {
